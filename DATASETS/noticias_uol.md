@@ -1,12 +1,12 @@
 # Notícias UOL
-## Exploration
+## Exploração
 
 Fazer uma sumarização das notícias.
 - Provavelmente será possível fazer uma validação da sumarização.
 - Tentar agrupar palavras diferentes mas que possam significar a mesma coisa em um dado contexto.
 - "Reescrever" a notícia com base na sumarização de forma mais simples.
 
-### Initial Code
+### Código Inicial
 
 ```python
 >> import numpy as np
@@ -62,12 +62,11 @@ Counter({'segunda': 2,
 ```
 
 
-## Dataset Info
-### About
+## Informações do Dataset
+### Sobre
 
 The dataset consists of 167.053 examples and contains Headlines, Url of Article, Complete Article and Category. I gathered the summarized news from Inshorts and only scraped the news articles from Folha de São Paulo - http://www.folha.uol.com.br/ (Brazilian Newspaper). Time period ranges is between January 2015 and September 2017.
 
-### Credits
-
-https://www.kaggle.com/datasets/marlesson/news-of-the-site-folhauol
-https://github.com/marlesson/scrapy_folha
+### Créditos
+- https://www.kaggle.com/datasets/marlesson/news-of-the-site-folhauol
+- https://github.com/marlesson/scrapy_folha
